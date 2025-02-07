@@ -1,3 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-    console.log("loaded")
-})
+  Toastify({
+    text: "This is a toast",
+    duration: 3000,
+  }).showToast();
+});
