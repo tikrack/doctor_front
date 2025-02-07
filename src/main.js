@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   //Elements
   const elm_call = $.querySelector("#call");
+  const elm_number = $.querySelector("#number");
 
   //Variable
 
@@ -24,6 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   elm_call.addEventListener("click", (e) => {
-    toast("کپی شد");
+    navigator.clipboard.writeText(elm_number.innerText).then(() => {
+      toast("کپی شد");
+    });
   });
 });
