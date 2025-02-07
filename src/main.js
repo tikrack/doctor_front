@@ -8,6 +8,15 @@ document.addEventListener("DOMContentLoaded", () => {
   //Variable
 
   //Functions
+  const toast = (text) => {
+    Toastify({
+      avatar: "/images/success.svg",
+      text: text,
+      duration: 2000,
+      gravity: "bottom",
+      position: "center",
+    }).showToast();
+  };
 
   //Events
   window.addEventListener("load", () => {
@@ -15,12 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   elm_call.addEventListener("click", (e) => {
-    Toastify({
-      avatar: "/images/success.svg",
-      text: "کپی شد",
-      duration: 2000,
-      gravity: "bottom",
-      position: "center",
-    }).showToast();
+    toast("کپی شد");
   });
 });
