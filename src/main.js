@@ -16,8 +16,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   elm_call.addEventListener("click", (e) => {
     Toastify({
-      text: "This is a toast",
-      duration: 30000,
+      avatar: "/images/success.svg",
+      text: "کپی شد",
+      duration: 2000,
       gravity: "bottom",
       position: "center",
     }).showToast();
