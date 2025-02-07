@@ -37,8 +37,9 @@
     }
 
     #information {
-        @apply w-full mt-[50px] min-h-[412px] overflow-hidden rounded-[20px];
+        @apply w-full mt-[50px] min-h-[412px] overflow-hidden rounded-[20px] relative;
         background-image: url("/images/sub1.png");
+        background-repeat: no-repeat;
         background-size: auto 100%;
         background-position: right;
     }
