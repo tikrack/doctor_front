@@ -4,4 +4,8 @@
     :root {
         --primary: #008a75;
     }
+
+    .toastify {
+        @apply !rounded-[13px];
+    }
 }
