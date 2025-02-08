@@ -20,7 +20,7 @@
     @font-face {
         font-family: "iran-yekan";
         font-weight: 900; /*ExtraBold*/
-        src: url("/public/fonts/iranyekan/woff/iranyekanwebextraboldfanum.woff") format("woff");
+        src: url("/fonts/iranyekan/woff/iranyekanwebextraboldfanum.woff") format("woff");
     }
 
     :root {
